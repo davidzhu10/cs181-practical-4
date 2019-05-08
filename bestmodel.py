@@ -15,7 +15,7 @@ class Learner(object):
     This agent implements E-Greedy Q-Learning Policy
     '''
 
-    def __init__(self, actions=[0, 1], epsilon=0.02, alpha=0.5, gamma=0.9):
+    def __init__(self, actions=[0, 1], epsilon=0.01, alpha=0.2, gamma=0.7):
         self.last_state  = None
         self.last_action = None
         self.last_reward = None
@@ -35,9 +35,9 @@ class Learner(object):
         # These construct the bins which states will be discretized into (MODIFY THIS), for y-coordinates, tree's
         # coordinates, x-coordinates, and velocity
         #self.y_bins = [50, 250]
-        self.y_bins = [500] # delete
+        self.y_bins = [500] # same as deleting
         self.t_bins = [0, 20, 40, 60, 80, 100, 150]
-        self.x_bins = [500] # delete
+        self.x_bins = [500] # same as deleting
         self.vel_bins = [-15, -5, 0, 5]
 
         # This will store the q-values that the agent learns

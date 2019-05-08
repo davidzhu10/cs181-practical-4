@@ -219,7 +219,7 @@ class SwingyMonkey:
             self.screen.blit(text, (self.screen_width-textpos[2],0,textpos[2],textpos[3]))
 
         # Render the display.
-        #pg.display.update()
+        pg.display.update()
 
         # If failed, play sound and exit.  Also, assign rewards.
         if edge_hit:

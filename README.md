@@ -1,7 +1,12 @@
 # cs181-practical-4
 
-To run, execute `python stub.py`. Note that this code runs for Python 3 and requires the `pygame` module, which can be installed using the `pip` package manager.
+To see our optimal model in action, run `python bestmodel.py`. Refer to code [here](bestmodel.py).
 
+To use the SARSA agent with graphs of average score/epoch split by gravity, run `python stub_bill.py`.
+
+To visualize some of our graphs, interpolated and split by gravity, run `python interpolation_graph.py`.
+
+Note that all this code runs for Python 3 and requires the `pygame` module, which can be installed using the `pip` package manager.
 
 ### Hyperparameter Tuning
 
