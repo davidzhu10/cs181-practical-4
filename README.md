@@ -1,6 +1,6 @@
 #cs181-practical-4
 
-To see our optimal model in action, run "python stub.py"
+To see our optimal model in action, run "python bestmodel.py"
 
 
 ### Hyperparameter Tuning
