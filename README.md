@@ -1,6 +1,10 @@
 #cs181-practical-4
 
-To see our optimal model in action, run "python bestmodel.py"
+To see our optimal model in action, run "python bestmodel.py".
+
+To use the SARSA agent with graphs of average score/epoch split by gravity, run "python stub_bill.py".
+
+To visualize some of our graphs, interpolated and split by gravity, run "python interpolation_graph.py".
 
 
 ### Hyperparameter Tuning
